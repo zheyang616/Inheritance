@@ -1,5 +1,7 @@
 package Inheritance;
 
+import java.util.ArrayList;
+
 import org.w3c.dom.css.Rect;
 
 public class Inheritance {
@@ -46,6 +48,19 @@ public class Inheritance {
 
         Circle circle = new Circle(5);
         System.out.println(circle.GetArea());
+
+        ArrayList<Student> students = new ArrayList<Student>();
+        students.add(new Student("Paul"));
+        students.add(new Student("Peter"));
+        students.add(new Student("Parker"));
+
+        //students.sort(null);
+
+        for(Student student:students){
+            System.out.println(student.GetName());
+        }
+
+
 
     }
     
