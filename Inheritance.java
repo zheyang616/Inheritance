@@ -56,8 +56,8 @@ public class Inheritance {
 
         //students.sort(null);
 
-        for(Student student:students){
-            System.out.println(student.GetName());
+        for(Student stud:students){
+            System.out.println(stud.GetName());
         }
 
 
